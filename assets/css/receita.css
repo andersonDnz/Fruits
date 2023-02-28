@@ -11,6 +11,8 @@
   flex-direction: column;
   margin-bottom: 5rem;
   margin-right: 5rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px gray;
   width: calc(25% - 5rem);
 }
 
@@ -20,6 +22,7 @@
 
 .receita__descricao {
   font-size: 1.1875rem;
+  display: flex;
   line-height: 1.5;
   text-align: justify;
 }
